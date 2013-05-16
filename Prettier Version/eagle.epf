@@ -11,18 +11,12 @@ UsedLibrary="/Users/evak/Google Drive/Eagle data/lbr/00-EvaLibrary.lbr"
 UsedLibrary="/Users/evak/Google Drive/Eagle data/lbr/SparkFun-Connectors.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="328 23 1361 873"
-State=2
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
 Loc="12 50 1439 895"
 State=1
 Number=1
 File="draft1.sch"
-View="-245.937 -7.08183 -58.3518 103.396"
+View="-267.272 -15.9753 -204.45 21.0236"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -54,8 +48,14 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -245.937 -7.08183 -58.3518 103.396"
+Views=" 1: -267.272 -15.9753 -204.45 21.0236"
 Sheet=1
+
+[Win_2]
+Type="Control Panel"
+Loc="328 23 1361 873"
+State=2
+Number=0
 
 [Win_3]
 Type="Board Editor"
@@ -63,7 +63,7 @@ Loc="0 22 1439 873"
 State=2
 Number=2
 File="draft1.brd"
-View="-17.297 20.149 78.0991 26.374"
+View="18.797 22.7837 64.802 25.7857"
 WireWidths=" 0 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.32 0.4 0.3 0.1524 0.2"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8 0.4"

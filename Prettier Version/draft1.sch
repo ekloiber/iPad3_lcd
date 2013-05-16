@@ -4146,6 +4146,69 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="3.45" y1="-1.25" x2="3.45" y2="-2.75" width="0.127" layer="21"/>
 <text x="-2" y="1.5" size="0.82" layer="25" ratio="10">&gt;Name</text>
 </package>
+<package name="ABMM">
+<smd name="1" x="-3.15" y="-1.27" dx="2.2" dy="1.4" layer="1"/>
+<smd name="2" x="-3.15" y="1.27" dx="2.2" dy="1.4" layer="1"/>
+<smd name="3" x="3.15" y="1.27" dx="2.2" dy="1.4" layer="1"/>
+<smd name="4" x="3.15" y="-1.27" dx="2.4" dy="1.4" layer="1"/>
+<wire x1="-3.6" y1="2.6" x2="-3.6" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="2.6" x2="3.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="2.6" x2="3.6" y2="2.1" width="0.127" layer="21"/>
+<wire x1="3.6" y1="0.4" x2="3.6" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-2.1" x2="3.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-2.6" x2="3.2" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-2.6" x2="-3.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-2.6" x2="-3.6" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-0.4" x2="-3.6" y2="0.4" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-2.1" x2="3.2" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-2.1" x2="3.2" y2="-2.6" width="0.127" layer="21"/>
+<rectangle x1="3.2" y1="-2.6" x2="3.6" y2="-2.1" layer="21"/>
+<text x="-2.5" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="ABM3C">
+<smd name="2" x="1.9" y="-1.15" dx="1.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="1" x="-1.9" y="-1.15" dx="1.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.9" y="1.15" dx="1.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="1.9" y="1.15" dx="1.3" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-0.4" x2="-2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="0.4" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-0.4" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="-1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="-1" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-0.4" x2="-2.5" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.6" x2="1" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.6" x2="1" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.4" x2="2.5" y2="0.4" width="0.127" layer="21"/>
+<text x="-2.5" y="2.5" size="1.27" layer="25">&gt;Name</text>
+</package>
+<package name="ABM8G">
+<smd name="GND-1" x="-1.1" y="0.85" dx="1.4" dy="1.2" layer="1"/>
+<smd name="X1" x="1.1" y="0.85" dx="1.4" dy="1.2" layer="1"/>
+<smd name="GND-2" x="1.1" y="-0.85" dx="1.4" dy="1.2" layer="1"/>
+<smd name="X2" x="-1.1" y="-0.85" dx="1.4" dy="1.2" layer="1"/>
+<wire x1="-1.5" y1="0.25" x2="-1.5" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="1.25" x2="0.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.25" x2="1.5" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-1.25" x2="0.25" y2="-1.25" width="0.127" layer="21"/>
+<text x="-1.75" y="3.25" size="1.27" layer="25">&gt;Name</text>
+<text x="-1.75" y="1.75" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="ABM3B">
+<smd name="1" x="-2" y="-1.2" dx="1.8" dy="1.2" layer="1"/>
+<smd name="2" x="2" y="-1.2" dx="1.8" dy="1.2" layer="1"/>
+<smd name="3" x="2" y="1.2" dx="1.8" dy="1.2" layer="1"/>
+<smd name="4" x="-2" y="1.2" dx="1.8" dy="1.2" layer="1"/>
+<wire x1="-2.5" y1="-0.5" x2="-2.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.6" x2="1" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0.5" x2="2.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.6" x2="-1" y2="-1.6" width="0.127" layer="21"/>
+<circle x="-2" y="-2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="-2" y="2" size="0.82" layer="25" ratio="10">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DISPLAYPORT">
@@ -4453,6 +4516,23 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="5.08" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="-15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
 <text x="-2.54" y="17.78" size="1.778" layer="95" ratio="10">&gt;Name</text>
+</symbol>
+<symbol name="XTAL">
+<wire x1="-1.27" y1="2.54" x2="1.397" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.397" y1="2.54" x2="1.397" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.397" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="2.3368" y1="2.54" x2="2.3368" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-2.286" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="CASE" x="0" y="-6.35" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.127" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="94" style="shortdash"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.127" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6575,6 +6655,53 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </device>
 </devices>
 </deviceset>
+<deviceset name="XTAL-ABRACON" prefix="X" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ABMM" package="ABMM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="CASE" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ABM3C" package="ABM3C">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="CASE" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ABM8G" package="ABM8G">
+<connects>
+<connect gate="G$1" pin="1" pad="X1"/>
+<connect gate="G$1" pin="2" pad="X2"/>
+<connect gate="G$1" pin="CASE" pad="GND-1 GND-2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ABM3B" package="ABM3B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="CASE" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -7078,6 +7205,12 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="GND21" library="00-EvaLibrary" deviceset="GND" device=""/>
 <part name="ISP" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
 <part name="GND22" library="00-EvaLibrary" deviceset="GND" device=""/>
+<part name="X1" library="00-EvaLibrary" deviceset="XTAL-ABRACON" device="ABM3C" value="16MHz"/>
+<part name="GND23" library="00-EvaLibrary" deviceset="GND" device=""/>
+<part name="C22" library="00-EvaLibrary" deviceset="C-EU" device="C0603" value="18p"/>
+<part name="GND24" library="00-EvaLibrary" deviceset="GND" device=""/>
+<part name="C23" library="00-EvaLibrary" deviceset="C-EU" device="C0603" value="18p"/>
+<part name="GND25" library="00-EvaLibrary" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7167,6 +7300,12 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="NAME" x="-372.618" y="40.132" size="1.778" layer="95"/>
 </instance>
 <instance part="GND22" gate="G$1" x="-358.14" y="29.21"/>
+<instance part="X1" gate="G$1" x="-228.6" y="6.35"/>
+<instance part="GND23" gate="G$1" x="-240.03" y="-3.81"/>
+<instance part="C22" gate="G$1" x="-240.03" y="3.81"/>
+<instance part="GND24" gate="G$1" x="-220.98" y="-3.81"/>
+<instance part="C23" gate="G$1" x="-220.98" y="3.81"/>
+<instance part="GND25" gate="G$1" x="-228.6" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -7380,6 +7519,18 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <segment>
 <pinref part="ISP" gate="G$1" pin="6"/>
 <pinref part="GND22" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="G$1" pin="GND"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="G$1" pin="GND"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="CASE"/>
+<pinref part="GND25" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="HPD" class="0">
@@ -8294,6 +8445,27 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <pinref part="U6" gate="G$1" pin="PB1"/>
 <wire x1="-298.45" y1="49.53" x2="-306.07" y2="49.53" width="0.1524" layer="91"/>
 <label x="-306.07" y="49.53" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="XTAL2"/>
+<pinref part="X1" gate="G$1" pin="1"/>
+<wire x1="-245.11" y1="6.35" x2="-240.03" y2="6.35" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="-240.03" y1="6.35" x2="-233.68" y2="6.35" width="0.1524" layer="91"/>
+<junction x="-240.03" y="6.35"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="XTAL1"/>
+<wire x1="-245.11" y1="11.43" x2="-220.98" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="11.43" x2="-220.98" y2="6.35" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="-220.98" y1="6.35" x2="-223.52" y2="6.35" width="0.1524" layer="91"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<junction x="-220.98" y="6.35"/>
 </segment>
 </net>
 </nets>
